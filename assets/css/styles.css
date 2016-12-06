@@ -1,0 +1,22 @@
+html, body, main {
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px; }
+
+header {
+  width: 100%;
+  border-bottom: 2px solid black;
+  margin-bottom: 1em; }
+
+h1 {
+  font-size: 4em;
+  font-family: monospace;
+  color: darkgreen; }
+
+.grid {
+  display: inline-flex; }
+
+/*# sourceMappingURL=styles.css.map */

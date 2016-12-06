@@ -14,9 +14,9 @@ $courses = $json_data['courses']['completed'];
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
-    <!-- <title> My Badges</title> -->
-    <title>"<?php echo $json_data['user']['username']; ?>" 's badges</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <title>"<?php echo $json_data['user']['username']; ?>" 's badges</title>
+
   </head>
 
 
@@ -28,7 +28,7 @@ $courses = $json_data['courses']['completed'];
     </header>
 
     <div class= "container">
-        <div class= "grid">
+      <div class= "grid">
             <?php
               foreach ($courses as $course) {
                 echo '<div class= "grid-cell">';
