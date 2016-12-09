@@ -23,24 +23,28 @@ $courses = $json_data['courses']['completed'];
 
 
   <body>
+
+
     <header>
       <h1> My Badges</h1>
     </header>
 
     <div class= "container">
-      <div class= "grid">
+      <ul class= "badges">
+      <!-- <div class= "row"> -->
             <?php
               foreach ($courses as $course) {
-                echo '<div class= "grid-cell">';
+                echo '<li class= "col">';
                 echo '<img height= "200px" src= "' .  $course["badge"] . '"/><br>';
                 echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
-                echo '</div>';
+                echo '</li>';
               }
 
 
 
             ?>
-        </div>
+        <!-- </div> -->
+      </ul>
     </div>
   </body>
 </html>
