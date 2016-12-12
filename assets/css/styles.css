@@ -1,27 +1,3 @@
-html, body, main {
-  flex-wrap: wrap;
-  height: 100%;
-  background-color: lightgrey;
-  min-width: 320px; }
 
-* {
-  box-sizing: border-box; }
-
-header {
-  height: 20%;
-  border-bottom: 2px solid black;
-  margin-bottom: 1em; }
-
-h1 {
-  font-size: 8em;
-  font-family: monospace;
-  color: darkgreen;
-  text-align: center; }
-
-.container {
-  background-color: lightgrey; }
-
-@media only screen and (max-width: 320px) {
-  flex-wrap: nowrap; }
 
 /*# sourceMappingURL=styles.css.map */
