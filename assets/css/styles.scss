@@ -1,5 +1,6 @@
 html, body, main{
   height: 100%;
+  background-color: white;
   min-width: 320px;
 }
 * {
@@ -55,6 +56,27 @@ h1{
   padding: 20px;
   min-width: 200px;
 }
+
+a{
+  margin-top: 4px;
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:#A5D0D7;
+}
+
+img{
+  transition: all 1s ease;
+}
+
+ img:hover {
+  border: 30px solid #A5D0D7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
 
 
 

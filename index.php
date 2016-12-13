@@ -33,7 +33,6 @@ $courses = $json_data['courses']['completed'];
 
     <div class= "container">
       <ul class= "badges">
-      <!-- <div class= "row"> -->
             <?php
               foreach ($courses as $course) {
                 echo '<li class= "col">';
@@ -45,7 +44,6 @@ $courses = $json_data['courses']['completed'];
 
 
             ?>
-        <!-- </div> -->
       </ul>
     </div>
   </body>
