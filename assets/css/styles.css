@@ -3,15 +3,12 @@ html, body, main {
   background-color: white;
   min-width: 320px; }
 
-* {
-  box-sizing: border-box; }
-
 header {
   flex-wrap: row wrap;
   height: 45%;
   flex-grow: 1;
   flex-shrink: 0;
-  background-image: url("http://d352ltojookjzf.cloudfront.net/wp-content/uploads/2014/11/Secret-Society3b.jpg");
+  background-image: url("https://image-gr.s3.envato.com/files/69653131/preview.jpg");
   opacity: 1; }
 
 h1 {
@@ -20,7 +17,8 @@ h1 {
   flex-shrink: 0;
   font-size: 9em;
   font-family: monospace;
-  color: white;
+  color: black white;
+  font-weight: bolder;
   text-align: center;
   flex-flow: row wrap; }
 
@@ -35,7 +33,7 @@ h1 {
   padding: 40px;
   border: 10px solid black;
   border-style: inset;
-  background-color: #4C6569;
+  background-color: black;
   display: flex;
   flex-flow: row wrap;
   max-height: 600px;
@@ -43,11 +41,16 @@ h1 {
   overflow-y: auto; }
 
 .col {
+  -webkit-transition: all 1s ease;
   justify-content: space-around;
   text-align: center;
   margin: 10px;
   padding: 20px;
   min-width: 200px; }
+
+.col:hover {
+  -webkit-transform: scale(1.1);
+  cursor: pointer; }
 
 a {
   margin-top: 4px;
@@ -56,14 +59,6 @@ a {
 
 a:hover {
   color: #A5D0D7; }
-
-img {
-  transition: all 1s ease; }
-
-img:hover {
-  border: 30px solid #A5D0D7;
-  border-radius: 50%;
-  cursor: pointer; }
 
 @media only screen and (max-width: 320px) {
   flex-wrap: nowrap; }

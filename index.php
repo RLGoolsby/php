@@ -17,6 +17,7 @@ $courses = $json_data['courses']['completed'];
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- the is the title that appears in the browser tab -->
     <title>"<?php echo $json_data['user']['username']; ?>" 's badges</title>
 
   </head>
@@ -27,24 +28,23 @@ $courses = $json_data['courses']['completed'];
   <body>
 
 
-    <header>
-      <h1> My Badges</h1>
-    </header>
+      <header>
+        <h1> My Badges</h1>
+      </header>
 
-    <div class= "container">
-      <ul class= "badges">
-            <?php
-              foreach ($courses as $course) {
-                echo '<li class= "col">';
-                echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
-                echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
-                echo '</li>';
-              }
-
-
-
-            ?>
-      </ul>
-    </div>
+      <div class= "container">
+        <ul class= "badges">
+          <!--The is the php code that GETS data from the server json and plugs it into my html -->
+              <?php
+                foreach ($courses as $course) {
+                  echo '<li class= "col">';
+                  echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
+                  echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
+                  echo '</li>';
+                }
+              ?>
+        </ul>
+      </div>
+    
   </body>
 </html>
