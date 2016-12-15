@@ -45,6 +45,8 @@ $courses = $json_data['courses']['completed'];
               ?>
         </ul>
       </div>
-    
+    <footer>
+      
+    </footer>
   </body>
 </html>

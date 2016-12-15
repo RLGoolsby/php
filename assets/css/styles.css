@@ -4,11 +4,12 @@ html, body, main {
   min-width: 320px; }
 
 header {
+  position: relative;
   flex-wrap: row wrap;
   height: 45%;
   flex-grow: 1;
   flex-shrink: 0;
-  background-image: url("https://image-gr.s3.envato.com/files/69653131/preview.jpg");
+  background-color: #1E99AB;
   opacity: 1; }
 
 h1 {
@@ -59,6 +60,15 @@ a {
 
 a:hover {
   color: #A5D0D7; }
+
+footer {
+  position: relative;
+  border: 3px solid black;
+  height: 5em;
+  flex-wrap: row wrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: #1E99AB; }
 
 @media only screen and (max-width: 320px) {
   flex-wrap: nowrap; }
