@@ -1,6 +1,38 @@
 <?php
 // phpinfo();
 
+	/**
+	 * GIT DEPLOYMENT SCRIPT
+	 *
+	 * Used for automatically deploying websites via github or bitbucket, more deets here:
+	 *
+	 *		https://gist.github.com/1809044
+	 */
+	// The commands
+	$courses = array(
+		'echo $PWD',
+		'whoami',
+		'git pull',
+		'git status',
+		'git submodule sync',
+		'git submodule update',
+		'git submodule status',
+	);
+  // Run the commands for output
+$output = '';
+foreach($courses AS $course){
+  // Run it
+  $tmp = shell_exec($course);
+  // Output
+  $output .= '<li class= "col">';
+  $output .= '</li>';
+  
+}
+// Make it pretty for manual user access (and why not?)
+
+
+
+
 $data = file_get_contents('https://www.codeschool.com/users/RGoolsby.json');
 $json_data = json_decode($data, true);
 // var_dump($json_data);
@@ -8,7 +40,7 @@ $courses = $json_data['courses']['completed'];
  ?>
 
 <!DOCTYPE html>
-<html>
+<html lang = "en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +78,8 @@ $courses = $json_data['courses']['completed'];
         </ul>
       </div>
     <footer>
-      
+
     </footer>
+    <?php echo $output; ?>
   </body>
 </html>
