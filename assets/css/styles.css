@@ -61,15 +61,6 @@ a {
 a:hover {
   color: #A5D0D7; }
 
-footer {
-  position: relative;
-  border: 3px solid black;
-  height: 5em;
-  flex-wrap: row wrap;
-  flex-grow: 1;
-  flex-shrink: 0;
-  background-color: #1E99AB; }
-
 @media only screen and (max-width: 320px) {
   flex-wrap: nowrap; }
 
