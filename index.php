@@ -1,35 +1,6 @@
 <?php
 // phpinfo();
 
-	/**
-	 * GIT DEPLOYMENT SCRIPT
-	 *
-	 * Used for automatically deploying websites via github or bitbucket, more deets here:
-	 *
-	 *		https://gist.github.com/1809044
-	 */
-	// The commands
-	$courses = array(
-		'echo $PWD',
-		'whoami',
-		'git pull',
-		'git status',
-		'git submodule sync',
-		'git submodule update',
-		'git submodule status',
-	);
-  // Run the commands for output
-$output = '';
-foreach($courses AS $course){
-  // Run it
-  $tmp = shell_exec($course);
-  // Output
-  $output .= '<li class= "col">';
-  $output .= '</li>';
-  
-}
-// Make it pretty for manual user access (and why not?)
-
 
 
 
@@ -74,12 +45,9 @@ $courses = $json_data['courses']['completed'];
                   echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
                   echo '</li>';
                 }
+
               ?>
         </ul>
       </div>
-    <footer>
-
-    </footer>
-    <?php echo $output; ?>
   </body>
 </html>

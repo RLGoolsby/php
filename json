@@ -1,0 +1,269 @@
+{
+	"user": {
+		"username": "RGoolsby",
+		"member_since": "2016-01-28T19:27:22.788Z",
+		"total_score": 58695,
+		"avatar": "http://gravatar.com/avatar/9e787d8b1d8ee56123b3058d35275dfa.jpg?s=80&r=pg"
+	},
+	"courses": {
+		"completed": [{
+			"title": "Try PHP",
+			"url": "http://www.codeschool.com/courses/try-php",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/679/try-php-749a67b4c361bb990b9a8606bfe19245.png"
+		}, {
+			"title": "Cracking the Case With Flexbox",
+			"url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/674/cracking-the-case-with-flexbox-bd5a2fab4f22076828152007da4ded45.png"
+		}, {
+			"title": "Try SQL",
+			"url": "http://www.codeschool.com/courses/try-sql",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/490/try-sql-2eeaad2f3a3ad35a5fed7b63563ec9b8.png"
+		}, {
+			"title": "Adventures in Web Animations",
+			"url": "http://www.codeschool.com/courses/adventures-in-web-animations",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/525/adventures-in-web-animations-ddb801dc0f6e1c033511311fa0eddece.png"
+		}, {
+			"title": "Shaping up with Angular.js",
+			"url": "http://www.codeschool.com/courses/shaping-up-with-angular-js",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/392/completed-shaping-up-with-angular-js-83ceb89bd5255391f25230727ae3f019.png"
+		}, {
+			"title": "Try Git",
+			"url": "http://www.codeschool.com/courses/try-git",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/121/completed-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png"
+		}, {
+			"title": "JavaScript Road Trip Part 2",
+			"url": "http://www.codeschool.com/courses/javascript-road-trip-part-2",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/300/completed-javascript-road-trip-part-2-d4fd45ae7ecb6601fe4a0c8d506ca306.png"
+		}, {
+			"title": "JavaScript Road Trip Part 1",
+			"url": "http://www.codeschool.com/courses/javascript-road-trip-part-1",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/296/completed-javascript-road-trip-part-1-b9f5af5196fb596271f7f97b6b477d24.png"
+		}],
+		"in_progress": [{
+			"title": "Git Real",
+			"url": "http://www.codeschool.com/courses/git-real",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/125/completed-git-real-0401f78ab2d83cdca3a6976987a531d4.png"
+		}, {
+			"title": "Rails for Zombies 2",
+			"url": "http://www.codeschool.com/courses/rails-for-zombies-2",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/25/completed-rails-for-zombies-2-632404d16a1f49d01f5c19105dae07be.png"
+		}, {
+			"title": "Accelerating Through Angular 2",
+			"url": "http://www.codeschool.com/courses/accelerating-through-angular-2",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/645/accelerating-through-angular-2-e6bdfefbcf188faad87fbea650881a03.png"
+		}, {
+			"title": "Git Real 2",
+			"url": "http://www.codeschool.com/courses/git-real-2",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/252/completed-git-real-2-70d7411574c89345143dd795086378c9.png"
+		}, {
+			"title": "Try ASP.NET Core",
+			"url": "http://www.codeschool.com/courses/try-asp-net-core",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/639/try-asp-net-core-245663587272a86d251a9f42486caac7.png"
+		}, {
+			"title": "JavaScript Road Trip Part 3",
+			"url": "http://www.codeschool.com/courses/javascript-road-trip-part-3",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/321/completed-javascript-road-trip-part-3-6c96fe52f9c68b790937d3db2110325a.png"
+		}, {
+			"title": "Mastering GitHub",
+			"url": "http://www.codeschool.com/courses/mastering-github",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/443/complete-mastering-github-e998c0ab56c79b9074ad5e3c1427691a.png"
+		}, {
+			"title": "CSS Cross-Country",
+			"url": "http://www.codeschool.com/courses/css-cross-country",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/40/completed-css-cross-country-ec9a9aa14797031680577e7a986bef75.png"
+		}, {
+			"title": "Discover DevTools",
+			"url": "http://www.codeschool.com/courses/discover-devtools",
+			"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/197/completed-discover-devtools-b769c8b681384be3ad04cdf813b4a62c.png"
+		}]
+	},
+	"badges": [{
+		"name": "Level 1 on Try Git",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/621/level-1-on-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
+		"course_url": "http://www.codeschool.com/courses/try-git"
+	}, {
+		"name": "Level 1 on Try PHP",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/675/level-1-on-try-php-9d8e72cfa27caacc2fca4f2671140353.png",
+		"course_url": "http://www.codeschool.com/courses/try-php"
+	}, {
+		"name": "Level 1 on Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/393/level-1-on-shaping-up-with-angular-js-692c3614fa425d233878a702003d2f98.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Level 1 on JavaScript Road Trip Part 1",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/297/level-1-on-javascript-road-trip-part-1-ff645bd94243922a90b775da5ee2647c.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-1"
+	}, {
+		"name": "Level 1 on Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/669/level-1-on-cracking-the-case-with-flexbox-bed91090dd5750ac3f809511243018ca.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Level 1 on JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/301/level-1-on-javascript-road-trip-part-2-baf68d7f42f8b6b5f185a356de5690b2.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Level 1 on Try ASP.NET Core",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/636/level-1-on-try-asp-net-core-17541425f1f95589111a42cf64fec06f.png",
+		"course_url": "http://www.codeschool.com/courses/try-asp-net-core"
+	}, {
+		"name": "Level 1 on Try SQL",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/487/level-1-on-try-sql-68a76aafef4bc08e8b2715d63ee1fa79.png",
+		"course_url": "http://www.codeschool.com/courses/try-sql"
+	}, {
+		"name": "Level 1 on Adventures in Web Animations",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/526/level-1-on-adventures-in-web-animations-3383b245a916a85fad67e1d8ba7b43d3.png",
+		"course_url": "http://www.codeschool.com/courses/adventures-in-web-animations"
+	}, {
+		"name": "Level 1 on JavaScript Road Trip Part 3",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/322/level-1-on-javascript-road-trip-part-3-9ad1dad72f2be56c98fe319ea809be32.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-3"
+	}, {
+		"name": "Level 2 on Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/670/level-2-on-cracking-the-case-with-flexbox-4d14e6144f4763180026e211e1f8ddad.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Level 2 on Try PHP",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/676/level-2-on-try-php-e1a41f1d88335883e55733f98d01416a.png",
+		"course_url": "http://www.codeschool.com/courses/try-php"
+	}, {
+		"name": "Level 2 on Try SQL",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/488/level-2-on-try-sql-e66f986bc557122ddc6d9a9f1dbb75d2.png",
+		"course_url": "http://www.codeschool.com/courses/try-sql"
+	}, {
+		"name": "Level 2 on Adventures in Web Animations",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/527/level-2-on-adventures-in-web-animations-722749acfc35887c7b18a47fbf45c3c1.png",
+		"course_url": "http://www.codeschool.com/courses/adventures-in-web-animations"
+	}, {
+		"name": "Level 2 on Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/394/level-2-on-shaping-up-with-angular-js-e87b03dfe5b569bc9c1a67769f8bec3a.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Level 2 on JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/302/level-2-on-javascript-road-trip-part-2-e691e2995191012f4d5ff4bf9664cc05.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Level 2 on JavaScript Road Trip Part 1",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/298/level-2-on-javascript-road-trip-part-1-e568b2c31b1fd0da0dc94cc4d5452150.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-1"
+	}, {
+		"name": "Level 3 on JavaScript Road Trip Part 1",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/299/level-3-on-javascript-road-trip-part-1-ae7652ab8f363e27fea8afe06cee30e3.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-1"
+	}, {
+		"name": "Level 3 on JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/303/level-3-on-javascript-road-trip-part-2-ad721f643fdf8de2665d40e7c26826ef.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Level 3 on Adventures in Web Animations",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/528/level-3-on-adventures-in-web-animations-c17742d856ddd426281a68d37f67fc11.png",
+		"course_url": "http://www.codeschool.com/courses/adventures-in-web-animations"
+	}, {
+		"name": "Level 3 on Try SQL",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/489/level-3-on-try-sql-742329712308c860e3b37ab1a46bb78f.png",
+		"course_url": "http://www.codeschool.com/courses/try-sql"
+	}, {
+		"name": "Level 3 on Try PHP",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/677/level-3-on-try-php-afa35ad0485126600b23f1951dd65176.png",
+		"course_url": "http://www.codeschool.com/courses/try-php"
+	}, {
+		"name": "Level 3 on Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/671/level-3-on-cracking-the-case-with-flexbox-cbd2336e1a33b27fa215178f1a856f99.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Level 3 on Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/395/level-3-on-shaping-up-with-angular-js-4f55a8624ff150ec2bdfae93c5dcb687.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Level 4 on JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/304/level-4-on-javascript-road-trip-part-2-9f89ee08fc861e56070d76312e305f7c.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Level 4 on Try PHP",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/678/level-4-on-try-php-1f0e7fecea059b3181262bdb44251b98.png",
+		"course_url": "http://www.codeschool.com/courses/try-php"
+	}, {
+		"name": "Level 4 on Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/672/level-4-on-cracking-the-case-with-flexbox-12034f6415ce57f261e5fef4028d1125.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Level 4 on Adventures in Web Animations",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/529/level-4-on-adventures-in-web-animations-a4fb7c34507124c79f1ebbd36155306e.png",
+		"course_url": "http://www.codeschool.com/courses/adventures-in-web-animations"
+	}, {
+		"name": "Level 4 on Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/396/level-4-on-shaping-up-with-angular-js-5964ff970d4f869304b754366a3c92a2.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Level 5 on Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/673/level-5-on-cracking-the-case-with-flexbox-cb18c1ad2d09988a1fbf7ea483546942.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Level 5 on Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/397/level-5-on-shaping-up-with-angular-js-742684cfda41644aecdeda714ad70952.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Level 5 on JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/305/level-5-on-javascript-road-trip-part-2-f8e71724cc96cd76a8153c75d55dffaf.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Completed Try Git",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/121/completed-try-git-b54d1cd9fa940e4a3c1925056d38eca2.png",
+		"course_url": "http://www.codeschool.com/courses/try-git"
+	}, {
+		"name": "Completed JavaScript Road Trip Part 1",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/296/completed-javascript-road-trip-part-1-b9f5af5196fb596271f7f97b6b477d24.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-1"
+	}, {
+		"name": "Completed JavaScript Road Trip Part 2",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/300/completed-javascript-road-trip-part-2-d4fd45ae7ecb6601fe4a0c8d506ca306.png",
+		"course_url": "http://www.codeschool.com/courses/javascript-road-trip-part-2"
+	}, {
+		"name": "Completed Shaping up with Angular.js",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/392/completed-shaping-up-with-angular-js-83ceb89bd5255391f25230727ae3f019.png",
+		"course_url": "http://www.codeschool.com/courses/shaping-up-with-angular-js"
+	}, {
+		"name": "Scout",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/531/scout-54448d7074a378e1ee249cf9be818f73.png",
+		"course_url": null
+	}, {
+		"name": "Cracking the Case With Flexbox",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/674/cracking-the-case-with-flexbox-bd5a2fab4f22076828152007da4ded45.png",
+		"course_url": "http://www.codeschool.com/courses/cracking-the-case-with-flexbox"
+	}, {
+		"name": "Rookie",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/530/rookie-0fa91bd64fa59be22b5e5600807d1057.png",
+		"course_url": null
+	}, {
+		"name": "Tenderfoot",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/496/tenderfoot-59d41c72e7dafb6adafe6802e288d636.png",
+		"course_url": null
+	}, {
+		"name": "Journeyperson",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/497/journeyperson-7d6eea0f0d15e9c2fed170689934b4b4.png",
+		"course_url": null
+	}, {
+		"name": "Bullseye",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/582/bullseye-11b609ec6bac32b255919f670f1966b0.png",
+		"course_url": null
+	}, {
+		"name": "Try PHP",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/679/try-php-749a67b4c361bb990b9a8606bfe19245.png",
+		"course_url": "http://www.codeschool.com/courses/try-php"
+	}, {
+		"name": "Cadet",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/495/cadet-068d8b9938da926dce6ea4911d6adfc6.png",
+		"course_url": null
+	}, {
+		"name": "Apprentice",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/534/apprentice-0f19184c0b7fc1eaa3e9c89e758c5d99.png",
+		"course_url": null
+	}, {
+		"name": "Adventures in Web Animations",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/525/adventures-in-web-animations-ddb801dc0f6e1c033511311fa0eddece.png",
+		"course_url": "http://www.codeschool.com/courses/adventures-in-web-animations"
+	}, {
+		"name": "Try SQL",
+		"badge": "https://d1ffx7ull4987f.cloudfront.net/images/achievements/large_badge/490/try-sql-2eeaad2f3a3ad35a5fed7b63563ec9b8.png",
+		"course_url": "http://www.codeschool.com/courses/try-sql"
+	}]
+}
