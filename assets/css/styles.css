@@ -1,43 +1,36 @@
 html, body, main {
+  width: 100%;
   height: 100%;
   background-color: white;
-  min-width: 320px; }
+  min-width: 420px; }
 
 header {
   position: relative;
-  flex-wrap: row wrap;
-  height: 45%;
-  flex-grow: 1;
-  flex-shrink: 0;
+  width: 100%;
+  height: 30%;
   background-color: #1E99AB;
   opacity: 1; }
 
 h1 {
   padding-top: 0.2em;
-  flex-grow: 1;
-  flex-shrink: 0;
-  font-size: 9em;
+  font-size: 6em;
   font-family: monospace;
-  color: black white;
+  color: black;
   font-weight: bolder;
-  text-align: center;
-  flex-flow: row wrap; }
+  text-align: center; }
 
-.container {
-  padding: 20px;
-  display: flex;
-  flex-flow: row wrap;
-  flex-grow: 1;
-  flex-shrink: 0; }
+.container-fluid {
+  width: 100%;
+  height: 100%; }
+
+.row {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
 
 .badges {
-  padding: 40px;
-  border: 10px solid black;
   border-style: inset;
   background-color: black;
-  display: flex;
-  flex-flow: row wrap;
-  max-height: 600px;
   overflow-x: scroll;
   overflow-y: auto; }
 
@@ -61,7 +54,16 @@ a {
 a:hover {
   color: #A5D0D7; }
 
-@media only screen and (max-width: 320px) {
-  flex-wrap: nowrap; }
+@media only screen and (max-width: 768px) {
+  .col {
+    margin: .5% 0 .5% 0%; } }
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .col {
+    margin: .5% 0 .5% 0%; } }
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .col {
+    margin: .5% 0 .5% 0%; } }
 
 /*# sourceMappingURL=styles.css.map */
