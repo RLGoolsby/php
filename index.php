@@ -41,20 +41,21 @@ $courses = $json_data['courses']['completed'];
       </header>
 
 
-        <div class= "row">
+        <!-- <div class= "row"> -->
         <ul class= "badges">
           <!--The is the php code that GETS data from the server json and plugs it into my html -->
               <?php
                 foreach ($courses as $course) {
+                  echo '<li class= "row">';
                   echo '<li class= "col col-xs-6 col-md-4">';
-                  echo '<img height= "240px" src= "' .  $course["badge"] . '"/><br>';
+                  echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
                   echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
                   echo '</li>';
                 }
 
               ?>
         </ul>
-      </div>
+      <!-- </div> -->
     </div>
       <script src="assets/js/bootstrap.min.js"></script>
   </body>
