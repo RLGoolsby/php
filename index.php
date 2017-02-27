@@ -48,7 +48,7 @@ $courses = $json_data['courses']['completed'];
                 foreach ($courses as $course) {
 
                   echo '<li class= "col col-xs-6 col-md-4">';
-                  echo '<img height= "110px" src= "' .  $course["badge"] . '"/><br>';
+                  echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
                   echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
                   echo '</li>';
                 }
