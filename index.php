@@ -35,10 +35,10 @@ $courses = $json_data['courses']['completed'];
   <body>
 
 
-      <header>
+      <header>                  <!-- Trigger/Open The Modal -->
         <h1>M<button id="myBtn"><i class="fa fa-eye fa-5x" aria-hidden="true"></i></button> Badges</h1>
 
-          <!-- Trigger/Open The Modal -->
+
 
 
           <!-- The Modal -->
@@ -49,9 +49,9 @@ $courses = $json_data['courses']['completed'];
               <span class="close">&times;</span>
               <p>Adventures in coding are endless.
                 <a target="_tab" href="https://www.codeschool.com/">CodeSchool</a></p>
-            </div>
+            </div><!-- end of modal-content -->
 
-          </div>
+          </div><!-- end of myModal -->
 
       </header>
 
@@ -72,6 +72,7 @@ $courses = $json_data['courses']['completed'];
 
               ?>
         </ul>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="assets/js/scripts.js"></script>
     <body>

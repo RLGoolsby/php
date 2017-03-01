@@ -1,3 +1,6 @@
+// This script is referenced from w3schools.com
+// I intend to reconfig it using jQuery 
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -18,8 +21,8 @@ span.onclick = function() {
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
