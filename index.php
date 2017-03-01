@@ -1,6 +1,7 @@
 <?php
 // phpinfo();
-
+//Report all PHP errors
+error_reporting(-1);
 
 
 
@@ -21,9 +22,6 @@ $courses = $json_data['courses']['completed'];
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
 
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- the is the title that appears in the browser tab -->
     <title>"<?php echo $json_data['user']['username']; ?>" 's badges</title>
@@ -35,28 +33,26 @@ $courses = $json_data['courses']['completed'];
 
   <body>
 
-    <div class= "container-fluid">
+
       <header>
         <h1> My Badges</h1>
       </header>
 
 
-        <div class= "row">
+        <!-- <div class= "row"> -->
         <ul class= "badges">
           <!--The is the php code that GETS data from the server json and plugs it into my html -->
               <?php
                 foreach ($courses as $course) {
 
-                  echo '<li class= "col col-xs-6 col-md-4">';
-                  echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
+                  echo '<li class= "col">';
+                  echo '<img height= "310px" src= "' .  $course["badge"] . '"/><br>';
                   echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
                   echo '</li>';
                 }
 
               ?>
         </ul>
-      </div><!-- end of row -->
-    </div><!-- end of container-fluid -->
-      <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+
+    <body>
 </html>

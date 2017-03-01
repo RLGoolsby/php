@@ -9,6 +9,7 @@ html, body, main{
 
 header{
 position: relative;
+margin-bottom: 30px;
 // flex-wrap: row wrap;
 width: 100%;
 height: 35%;
@@ -19,53 +20,29 @@ opacity: 1;
 }
 
 h1{
-  padding-top: 0.2em;
-  // flex-grow: 1;
-  // flex-shrink: 0;
-  font-size: 6em;
+  padding-top: 0.1em;
+  font-size: 8em;
   font-family: monospace;
   color: black;
   font-weight: bolder;
   text-align: center;
-  // flex-flow: row wrap;
 }
 
-.container-fluid{
-  // padding: 20px;
-  // display: flex;
-  // flex-flow: row wrap;
-  // flex-grow: 1;
-  // flex-shrink: 0;
-  width: 100%;
-  height: 100%;
-}
 
-.row{
-  clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-ul{
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
 .badges{
-    margin-left: 20px;
-    // padding: 2px;
-    // border: 10px solid black;
+    padding: 2px;
     border-style: inset;
-    background-color: darkgrey;
-    // display: flex;
-    // flex-flow: row wrap;
-    // max-height: 600px;
+    background-color: black;
     overflow-x: scroll;
     overflow-y: auto;
 }
 
- .col{
 
+
+ .col{
+  //  display: inline-block;
   -webkit-transition: all 1s ease;
-  justify-content: space-around;
+  // justify-content: space-around;
   text-align: center;
   margin: 10px;
   padding: 30px;
