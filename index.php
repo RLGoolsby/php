@@ -17,6 +17,7 @@ $courses = $json_data['courses']['completed'];
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
@@ -35,24 +36,43 @@ $courses = $json_data['courses']['completed'];
 
 
       <header>
-        <h1> My Badges</h1>
+        <h1>M<button id="myBtn"><i class="fa fa-eye fa-5x" aria-hidden="true"></i></button> Badges</h1>
+
+          <!-- Trigger/Open The Modal -->
+
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Adventures in coding are endless.
+                <a target="_tab" href="https://www.codeschool.com/">CodeSchool</a></p>
+            </div>
+
+          </div>
+
       </header>
 
 
-        <!-- <div class= "row"> -->
+
+
+
         <ul class= "badges">
           <!--The is the php code that GETS data from the server json and plugs it into my html -->
               <?php
                 foreach ($courses as $course) {
 
                   echo '<li class= "col">';
-                  echo '<img height= "310px" src= "' .  $course["badge"] . '"/><br>';
+                  echo '<img height= "210px" src= "' .  $course["badge"] . '"/><br>';
                   echo '<a href= "' . $course["url"] . '">' . $course["title"] . '</a>';
                   echo '</li>';
                 }
 
               ?>
         </ul>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
     <body>
 </html>
