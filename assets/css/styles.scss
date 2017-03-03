@@ -6,7 +6,7 @@ html, body{
 }
 
 
-
+/** Header banner **/
 header{
 position: relative;
 margin-bottom: 30px;
@@ -70,21 +70,24 @@ h1{
     text-decoration: none;
     cursor: pointer;
 }
+
 /** The open button **/
 button{
   background-color: lightcoral;
   border-radius: 50%;
   border-style: outset;
   margin-left: 8px;
-  font-size: 15px;
-
+  font-size: 13px;
+  padding-top: 10px;
 }
+
 button:hover,
 button:focus{
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
+
 /** The modal content paragraph **/
 p{
   font-size: 22px;
@@ -99,8 +102,7 @@ p{
     overflow: auto;
 }
 
-
-
+/** Columns/ individual badges **/
  .col{
   -webkit-transition: all 1s ease;
   text-align: center;
@@ -112,7 +114,7 @@ p{
   cursor: pointer;
 }
 
-
+/** Href for specific badge links **/
 a{
   margin-top: 4px;
   text-decoration: none;
@@ -123,32 +125,32 @@ a:hover{
 }
 
 
-
+/** Media queries for responsiveness **/
 @media only screen and (max-width: 768px) {
 .col{
-  margin:.5% 0 .5% 0%;
+  margin:1% 0 1% 0%;
 }
 .badges{
-  margin:.5% 0 .5% 0%;
+  margin:1% 0 1% 0%;
 }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   .col{
-    margin: .5% 0 .5% 0%;
+    margin: 1% 0 1% 0%;
   }
   .badges{
-    margin:.5% 0 .5% 0%;
+    margin:1% 0 1% 0%;
   }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
   .col{
-    margin: .5% 0 .5% 0%;
+    margin: 1% 0 1% 0%;
   }
   .badges{
-    margin:.5% 0 .5% 0%;
+    margin:1% 0 1% 0%;
   }
 }

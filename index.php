@@ -35,8 +35,10 @@ $courses = $json_data['courses']['completed'];
   <body>
 
 
-      <header>                  <!-- Trigger/Open The Modal -->
-        <h1>M<button id="myBtn"><i class="fa fa-eye fa-5x" aria-hidden="true"></i></button> Badges</h1>
+      <header>
+        <!-- Trigger/Open The Modal -->
+        <h1>M<button id="myBtn"><i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+          </button> Badges</h1>
 
 
 
