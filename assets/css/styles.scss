@@ -19,8 +19,9 @@ opacity: 1;
 
 /** The Header Title **/
 h1{
-  // padding-top: 0.1em;
-  font-size: 8.5em;
+  margin-top: 30px;
+  padding-top: 0.3em;
+  font-size: 6em;
   font-family: monospace;
   color: black;
   font-weight: 200;
@@ -124,6 +125,11 @@ a:hover{
   color:#A5D0D7;
 }
 
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+    }
+}
 
 /** Media queries for responsiveness **/
 @media only screen and (max-width: 768px) {
