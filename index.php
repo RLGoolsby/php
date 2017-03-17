@@ -24,7 +24,7 @@ $courses = $json_data['courses']['completed'];
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
 
 
-    <!-- the is the title that appears in the browser tab -->
+    <!-- this is the title that appears in the browser tab -->
     <title>"<?php echo $json_data['user']['username']; ?>" 's badges</title>
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
